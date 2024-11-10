@@ -1,50 +1,20 @@
-# Welcome to your Expo app 👋
+# MimoBook
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Problemática
+Muchos usuarios gestionan sus notas, horarios y recordatorios importantes en varias aplicaciones diferentes. Esto crea una fragmentación de la información y puede llevar a que pierdan acceso rápido o incluso olviden datos críticos cuando más lo necesitan.
 
-## Get started
+## Propuesta
+**MimoBook** es una aplicación que centraliza funciones clave de agenda, notas y calendario en un solo lugar para maximizar la comodidad y eficiencia de los usuarios. Además, permite una experiencia de colaboración única con amigos, donde los usuarios pueden compartir tareas, enviar notificaciones y colaborar en notas y dibujos.
 
-1. Install dependencies
+## Flujo General de la Aplicación
 
-   ```bash
-   npm install
-   ```
+- **Sección de Notas**: Permite a los usuarios crear, editar y gestionar documentos de texto y dibujos en un canvas digital. Las herramientas son básicas pero intuitivas, abarcando desde edición de texto hasta dibujo libre. Además, la aplicación incluye un chatbot de inteligencia artificial que puede asistir en mejorar textos seleccionados.
 
-2. Start the app
+- **Sección de Agenda/Calendario**: Aquí los usuarios pueden organizar y ver sus fechas importantes. Cada evento permite la adición de tareas u objetivos, con opciones de edición o eliminación. La aplicación envía notificaciones automáticas de eventos programados y permite configurar recordatorios personalizados.
 
-   ```bash
-    npx expo start
-   ```
+- **Sección de Chatbot**: Esta función permite al usuario realizar consultas y recibir asistencia para mejorar textos, acceder a información adicional o guardar conversaciones importantes para referencia futura.
 
-In the output, you'll find options to open the app in a
+- **Perfil de Usuario**: El perfil permite gestionar tareas próximas, revisar las últimas notas usadas y las favoritas, y ver la lista de amigos agregados. Los usuarios pueden enviar notificaciones programadas a amigos, compartir tareas o notas, y, opcionalmente, permitir que los destinatarios guarden estas en su propio calendario.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
